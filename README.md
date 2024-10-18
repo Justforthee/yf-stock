@@ -2,6 +2,7 @@
 
 This project is a stock price prediction application powered by machine learning. It provides short-term and long-term predictions for stock prices using historical data and technical indicators.
 
+
 ## Features
 
 - Real-time stock data fetching from Yahoo Finance
@@ -30,8 +31,8 @@ This project is a stock price prediction application powered by machine learning
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/stock-prediction-dashboard.git
-   cd stock-prediction-dashboard
+   git clone https://github.com/Justforthee/yf-stock-prediction.git
+   cd yf-stock-prediction
    ```
 
 2. Create and activate a virtual environment:
@@ -45,12 +46,18 @@ This project is a stock price prediction application powered by machine learning
    pip install -r requirements.txt
    ```
 
-4. Run the main script to train the models and start the dashboard:
+4. Replace the Yahoo Finance API key in the `config.py` file:
+   ```
+   # Open config.py and replace 'your yahoo finance api key here' with your actual API key
+   YAHOO_FINANCE_API_KEY = 'your_actual_api_key_here'
+   ```
+
+5. Run the main script to train the models and start the dashboard:
    ```
    python main.py
    ```
 
-5. Open a web browser and navigate to `http://localhost:8050` to access the dashboard.
+6. Open a web browser and navigate to `http://localhost:8050` to access the dashboard.
 
 ## Usage
 
