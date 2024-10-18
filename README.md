@@ -31,8 +31,8 @@ This project is a stock price prediction application powered by machine learning
 
 1. Clone the repository:
    ```
-   git clone https://github.com/Justforthee/yf-stock-prediction.git
-   cd yf-stock-prediction
+   git clone https://github.com/Justforthee/yf-stock.git
+   cd yf-stock
    ```
 
 2. Create and activate a virtual environment:
